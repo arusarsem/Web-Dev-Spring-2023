@@ -21,12 +21,50 @@ body{
     margin-left: 370px;
 }
 
+@keyframes animation_v1{
+    0% {opacity: 100%;}
+    40% {opacity: 100%;}
+    50% {opacity: 0%;}
+    90% {opacity: 0%;}
+    100% {opacity: 100%;}
+}
+
+.phone_screen3{
+    border-radius: 10px;
+    position: fixed;
+    height: 547px;
+    margin-top: 58px;
+    margin-left: 521px;
+    animation-name: animation_v1;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: forwards
+}
+
+.phone_screen4{
+    border-radius: 10px;
+    position: fixed;
+    height: 547px;
+    margin-top: 58px;
+    margin-left: 521px;
+    animation-name: animation_v1;
+    animation-duration: 12s;
+    animation-delay: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: forwards
+}
+
+
 .phone2_img{
     position: fixed;
     height: 700px;
     margin-top: -20px;
     margin-left: 450px;
 }
+
+
 
 
 .phone_screen2{

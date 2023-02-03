@@ -1,0 +1,121 @@
+body{
+    background-color: #F0F2F5;
+}
+
+.logo_facebook{
+    height: 126px;
+    margin-top: 180px;
+    margin-left: -570px;
+}
+
+.for_txt{
+    height: 200px;
+    width: 450px;
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: normal;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1C1E21;
+    margin-left: -535px;
+    margin-top: 290px;
+}
+
+
+.main_container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.block{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 0.2px ;
+    width: 320px;
+    height: 280px;
+    margin-left: 800px;
+    margin-top: -145px;
+    align-items: center;
+}
+
+#input1{
+    text-align: left;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 330px;
+    height: 35px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    margin-left: -7px;
+}
+
+#input2{
+    margin-top: 12px;
+    text-align: left;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 330px;
+    height: 35px;
+    border-radius: 6px;
+    margin-left: -7px;
+}
+
+
+.log_in{
+    margin-top: 12px;
+    background-color: #1877f2;
+    width: 325px;
+    height: 35px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 4px;
+    box-sizing: content-box;
+    border: #F0F2F5;
+    margin-left: -7px;
+
+}
+
+.forgot_pas{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 100px;
+    margin-top: 18px;
+}
+
+.div_ka{
+    margin-top: 55px;
+    background-color: #dddfe2;
+    width: 325px;
+    height: 0.5px;
+    border: #dddfe2 1px solid;
+}
+
+
+.crt_new_acc{
+    margin-left: 65px;
+    margin-top: 25px;
+    font-size: 17px;
+    border-radius: 8px;
+    background-color: #42b72a;
+    color: #fff;
+    border: none;
+    width: 200px;
+    height: 48px;
+
+
+}
+
+.for_txt2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1c1e21;
+    margin-left: 850px;
+    margin-top: 25px;  
+
+
+}
