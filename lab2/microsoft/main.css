@@ -1,0 +1,166 @@
+
+.container_1{
+    margin-top: 10px;
+    margin-left: 70px;
+    display: flex;
+    gap: 30px;
+}
+
+
+.container_2{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 1100px;
+    display: flex;
+    gap: 25px;
+}
+
+
+
+.mcrsft_logo{
+    width: 105px;
+}
+
+
+header>div>a{
+    margin-top: 5px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #1C1E21;
+    text-decoration: none;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+}
+
+
+select{
+    line-height: 1.5;
+    font-weight: 400;
+    color: #1C1E21;
+    text-decoration: none;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    border: dashed 1px black;
+}
+
+body>header>div>p{
+
+    line-height: 1.5;
+    font-weight: 400;
+    color: #1C1E21;
+    text-decoration: none;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+
+}
+
+
+img.search{
+    margin-top: 15px;
+    margin-left: 215px;
+    position: absolute;
+    height: 17px;
+}
+
+.sign{
+    margin-left:-20px;
+    margin-top: 9px;
+    height: 30px;
+}
+
+
+.cont_2{
+    line-height: 1.5;
+    font-weight: 400;
+    color: #1C1E21;
+    text-decoration: none;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+}
+
+
+.zb{
+    margin-left: 25px;
+}
+
+
+.main_txt{
+    margin-left: 120px;
+    margin-top: -358px;
+    position: absolute;
+    width: 600px;
+    height: 300px;
+}
+
+.mcrsft_main_txt{
+    font-weight: 600;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 37px;
+}
+
+.sub_txt{
+    position: absolute;
+    font-weight: 400;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    margin-top: -20px;
+}
+
+
+.btn1{
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #0067b8;
+    color: white;
+    width: 160px;
+    height: 40px;
+    border: none;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+
+
+.btn2{
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #bddbf9;
+    position: absolute;
+    color: black;
+    width: 160px;
+    height: 40px;
+    border: none;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.btn2:hover{
+    border: dashed 2px black;
+}
+
+
+.card{
+    display: flex;
+    gap: 30px;
+    margin-top: 70px;
+    margin-left: 60px;
+}
+
+img.img_card{
+    height: 180px;
+}
+
+div.card>div>p, div.card>div>h3, div.card>div>a{
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+div.card>div>p{
+
+}
+
+div.card>div>h3{
+    font-size: 28px;
+}
+
+div.card>div>a{
+    text-decoration: none;
+}
