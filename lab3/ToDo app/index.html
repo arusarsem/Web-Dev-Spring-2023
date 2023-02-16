@@ -1,23 +1,55 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="style/style.css">
-    <script src="https://kit.fontawesome.com/ebbaf8c785.js" crossorigin="anonymous"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+    <link rel="stylesheet" href="main.css">
 </head>
-    <body>
-        <header class="header">ToDo List</header>
-        <h1>ToDo List</h1>
+<body>
 
-        <div id="newtask">
-            <input type="text" placeholder="Task to be done..">
-            <button id="push">Add</button>
+    <header class="header">
+        <div class="headertext">
+            ToDo List
         </div>
-        <div id="tasks">
+    </header>
 
+    <section>
+        <div id="search">
+            <div class="ToDoList">
+                <div class="ToDo">
+                    ToDo List
+                </div>
+                
+            </div>
+            <div id="searchcontent">
+                <input id="searchbar" type="text" placeholder="New Task">
+                <button id="addbutton" type="submit" onclick="addTask()">Add</button>
+            </div>
         </div>
-        <script src="js/js.js"></script>
-    </body>
+
+
+        <div id="tasklist">
+            <div class="task">
+
+                <div class="check">
+                    <input type="checkbox" class="chkbox" onclick="done(this)">
+                </div>
+
+                <div class="content">
+                    <p>Content</p>
+                </div>
+
+                <div class="delete">
+                    <button class="delete-button" onclick="delete_(this)">
+                        Delete
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
 </html>

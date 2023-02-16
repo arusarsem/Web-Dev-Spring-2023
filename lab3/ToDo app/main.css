@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    align-items: center;
+}
+.header{
+    background-color: black;
+    align-items: baseline;
+    height: 50px;
+    width: 100%;
+    color: black;
+}
+
+.headertext{
+    color: aquamarine;
+    padding-left: 110px;
+    padding-top: 15px;
+}
+
+section{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#search{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+    color: white;
+    background-color: white;
+    height: 200px;
+}
+.ToDoList{
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    height: 50px;
+    background-color: white;
+    width: 80%;
+}
+.ToDo{
+    display: flex;
+    color: black;
+    font-size: xx-large;
+}
+#searchcontent{
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    height: 50px;
+    color: white;
+    width: 80%;
+}
+#searchbar{
+    width: 70%;
+    size: 300px;
+    margin: 10px;
+}
+input{
+    display:block;
+    background-color: #fff;
+    margin: auto;
+    border: 1.5px solid rgb(200, 200, 200);
+    padding: 10px 16px;
+    border-radius: 5px;
+    text-align: left;
+    color: black;
+    font-family: Segoe UI;
+    font-size: 15px; 
+}
+#addbutton{
+    border: none;
+    background-color: #3b5998;
+    color: white;
+    margin: auto;
+    width: 85px;
+    height: 43px;
+    display: block;
+    border-radius: 5px;
+    padding: 10px 0;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: large;
+}
+#tasklist{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 300px;
+    background-color: white;
+    width: 52%;
+    border: 1.5px solid rgb(200, 200, 200);
+    border-radius: 4px;
+}
+
+.task{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 50px;
+    width: 99.8%;
+    border: 1.5px solid rgb(200, 200, 200);
+    border-radius: 2px;
+}
+.chkbox{
+    margin-top: 19px;
+    margin-left: 19px;
+    scale: 1.4;
+}
+.check{
+    height: 50px;
+    width: 5%;
+    margin: 0px 1px;
+    padding: 0px 1px;
+}
+.content{
+    height: 30px;
+    width: 75%;
+    margin-top: 8px;
+    margin-left: 19px;
+    padding: 0px 10px;
+    background-color: white;
+    color: black;
+    align-items: baseline;
+}
+
+.delete{
+    height: 40px;
+    width: 50px;
+    background-color: white;
+    color: black;
+}
+
+.delete-button{
+    border: none;
+    background-color: rgb(220, 46, 46);
+    color: black;
+    width: 75px;
+    height: 40px;
+    display: block;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+}
