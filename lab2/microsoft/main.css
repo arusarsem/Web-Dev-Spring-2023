@@ -142,7 +142,9 @@ img.search{
     display: flex;
     gap: 30px;
     margin-top: 70px;
-    margin-left: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+
 }
 
 img.img_card{

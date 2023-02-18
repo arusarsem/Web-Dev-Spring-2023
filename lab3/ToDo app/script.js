@@ -1,7 +1,7 @@
 const form = document.querySelector('#searchcontent');
 const input = document.querySelector('input');
 const list_el = document.querySelector('#tasklist')
-
+ 
 function addTask() {
 
     const task = input.value;
