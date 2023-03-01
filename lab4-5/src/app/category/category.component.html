@@ -1,0 +1,4 @@
+
+<div *ngFor="let cat of category" class="button1-container">
+    <button class="button1"><a [routerLink]="['/category', cat.id]" style="text-decoration: none; color: white">{{cat.title}}</a></button>
+</div>

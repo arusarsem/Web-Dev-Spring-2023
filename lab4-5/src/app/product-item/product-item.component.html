@@ -1,0 +1,39 @@
+<div class="">
+    <h3>
+        <a [title]="product.name + ' details'" [routerLink]="['/products', product.id]">
+            {{ product.name }}
+        </a>
+    </h3>
+    <img src="{{ product.image }}" alt="img" class=".img">
+
+    <p *ngIf="product.description">
+        Description: {{ product.description }}
+    </p>
+
+    <button type="button" (click)="share(product.link)">
+        Share
+    </button>
+
+    <app-product-alerts
+            [product]="product"
+            (notify)="onNotify()">
+    </app-product-alerts>
+
+
+        <div>
+
+            <img src="https://cdn.worldvectorlogo.com/logos/facebook-reaction-like.svg"
+                 alt="img"
+                 style="width: 20px"
+                 (click)="like(product.id - 1)"
+            >
+
+            <p> {{product.like}} </p>
+        </div>
+
+
+
+
+
+</div>
+
