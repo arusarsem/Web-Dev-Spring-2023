@@ -14,4 +14,10 @@ export class CategoryComponent {
         {id: 3, title: 'Keyboards'},
         {id: 4, title: 'Phones'}
     ]
+
+
+    // get_cat(id: number) {
+    //
+    // }
+
 }
