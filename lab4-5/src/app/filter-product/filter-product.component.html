@@ -4,37 +4,44 @@
 <!--    {{c.name}}-->
 <!--</div>-->
 
+<!--<div *ngFor="let c of getCategory()">-->
+<!--    <h3>-->
+<!--        <a [title]="c.name + ' details'" [routerLink]="['/products', c.id]">-->
+<!--            {{ c.name }}-->
+<!--        </a>-->
+<!--    </h3>-->
+<!--    <img src="{{ c.image }}" alt="img" class=".img">-->
+
+<!--    <p *ngIf="c.description">-->
+<!--        Description: {{ c.description }}-->
+<!--    </p>-->
+
+<!--    <button type="button" (click)="share(c.link)">-->
+<!--        Share-->
+<!--    </button>-->
+
+<!--    <app-product-alerts-->
+<!--            [product]="c"-->
+<!--            (notify)="onNotify()">-->
+<!--    </app-product-alerts>-->
+
+
+<!--    <div>-->
+
+<!--        <img src="https://cdn.worldvectorlogo.com/logos/facebook-reaction-like.svg"-->
+<!--             alt="img"-->
+<!--             style="width: 20px"-->
+<!--             (click)="like(c.id)"-->
+<!--        >-->
+
+<!--        <p> {{c.like}} </p>-->
+<!--    </div>-->
+
+<!--</div>-->
+
+
 <div *ngFor="let c of getCategory()">
-    <h3>
-        <a [title]="c.name + ' details'" [routerLink]="['/products', c.id]">
-            {{ c.name }}
-        </a>
-    </h3>
-    <img src="{{ c.image }}" alt="img" class=".img">
 
-    <p *ngIf="c.description">
-        Description: {{ c.description }}
-    </p>
-
-    <button type="button" (click)="share(c.link)">
-        Share
-    </button>
-
-    <app-product-alerts
-            [product]="c"
-            (notify)="onNotify()">
-    </app-product-alerts>
-
-
-    <div>
-
-        <img src="https://cdn.worldvectorlogo.com/logos/facebook-reaction-like.svg"
-             alt="img"
-             style="width: 20px"
-             (click)="like(c.id)"
-        >
-
-        <p> {{c.like}} </p>
-    </div>
+    <app-product-item [product]="c">  </app-product-item>
 
 </div>

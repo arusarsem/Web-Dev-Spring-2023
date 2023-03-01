@@ -31,11 +31,4 @@ export class ProductItemComponent implements OnInit{
     like(id: number) {
         products[this.product.id-1].like++;
     }
-
-
-    rm (){
-       products.pop()
-    }
-
-
 }
