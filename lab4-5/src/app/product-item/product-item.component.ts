@@ -28,13 +28,9 @@ export class ProductItemComponent implements OnInit{
     window.alert("You will be notified when the product goes on sale");
   }
 
-  like(id: number){
-    products[id].like++;
+  like(){
+    products[this.product.id-1  ].like++;
   }
 
-
-  remove (id: number) {
-    products.pop()
-  }
 
 }

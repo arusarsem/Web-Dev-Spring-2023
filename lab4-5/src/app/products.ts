@@ -12,7 +12,7 @@ export interface Product {
 
 export const products = [
     {
-        id: 11,
+        id: 1,
         price: 190,
         like: 0,
         rating: 4.8,
@@ -28,7 +28,7 @@ export const products = [
         link: 'https://www.amazon.com/AMD-Processor-Wraith-Stealth-Cooler/dp/B07B41WS48/ref=sr_1_5?crid=134UYG6XPHUA5&dchild=1&keywords=processor&qid=1615811858&sprefix=processor%2Caps%2C411&sr=8-5',
     },
     {
-        id: 12,
+        id: 2,
         price: 229,
         like: 0,
         rating: 4.8,
@@ -43,7 +43,7 @@ export const products = [
         link: 'https://www.amazon.com/AMD-Ryzen-5600X-12-Thread-Processor/dp/B08166SLDF/ref=sr_1_4?crid=134UYG6XPHUA5&dchild=1&keywords=processor&qid=1615811858&sprefix=processor%2Caps%2C411&sr=8-4',
     },
     {
-        id: 13,
+        id: 3,
         price: 290,
         like: 0,
         rating: 4.8,
@@ -56,7 +56,7 @@ export const products = [
         link: 'https://www.amazon.com/AMD-Ryzen-3600X-12-Thread-Processor/dp/B07SQBFN2D/ref=sr_1_3?crid=134UYG6XPHUA5&dchild=1&keywords=processor&qid=1615811858&sprefix=processor%2Caps%2C411&sr=8-3',
     },
     {
-        id: 14,
+        id: 4,
         price: 310,
         like: 0,
         rating: 4.8,
@@ -71,7 +71,7 @@ export const products = [
         link: 'https://www.amazon.com/Intel-i7-10700KF-Processor-Unlocked-Graphics/dp/B086MMS6FV/ref=sr_1_1_sspa?crid=134UYG6XPHUA5&dchild=1&keywords=processor&qid=1615811858&sprefix=processor%2Caps%2C411&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzOE42OEZJOFpSTTlMJmVuY3J5cHRlZElkPUEwNTQxNzM5M1FOS1Y2VExNM0lOTSZlbmNyeXB0ZWRBZElkPUEwMDM3NDYzMkUyMUtYQzVZRDFPUSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=',
     },
     {
-        id: 15,
+        id: 5,
         price: 400,
         like: 0,
         rating: 4.8,
@@ -86,7 +86,7 @@ export const products = [
         link: 'https://www.amazon.com/Intel-i9-10900-Desktop-Processor-Chipset/dp/B086ML4XSD/ref=sr_1_2_sspa?crid=134UYG6XPHUA5&dchild=1&keywords=processor&qid=1615811858&sprefix=processor%2Caps%2C411&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzOE42OEZJOFpSTTlMJmVuY3J5cHRlZElkPUEwNTQxNzM5M1FOS1Y2VExNM0lOTSZlbmNyeXB0ZWRBZElkPUEwMDM3OTU1MUFHQVVHUUhKU0Q5QyZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=',
     },
     {
-        id: 21,
+        id: 6,
         price: 410,
         like: 0,
         rating: 4.6,
@@ -97,7 +97,7 @@ export const products = [
         link: 'https://www.amazon.com/PNY-GeForce-Gaming-Overclocked-Single/dp/B08Q5QVMC7/ref=sr_1_7?crid=3SYXJZLN404NO&dchild=1&keywords=nvidia+graphics+card&qid=1615813513&sprefix=nvidia%2Caps%2C452&sr=8-7',
     },
     {
-        id: 22,
+        id: 7,
         price: 2185,
         like: 0,
         rating: 4.5,
@@ -111,7 +111,7 @@ export const products = [
         link: 'https://www.amazon.com/NVIDIA-RTX-3090-Founders-Graphics/dp/B08HR6ZBYJ/ref=sr_1_8?crid=3SYXJZLN404NO&dchild=1&keywords=nvidia+graphics+card&qid=1615813513&sprefix=nvidia%2Caps%2C452&sr=8-8',
     },
     {
-        id: 23,
+        id: 8,
         price: 650,
         like: 0,
         rating: 4.5,
@@ -125,7 +125,7 @@ export const products = [
         link: 'https://www.amazon.com/Nvidia-GeForce-1070-Founders-900-1G411-2520-000/dp/B07SSVWFML/ref=sr_1_9?crid=3SYXJZLN404NO&dchild=1&keywords=nvidia+graphics+card&qid=1615813513&sprefix=nvidia%2Caps%2C452&sr=8-9',
     },
     {
-        id: 24,
+        id: 9,
         price: 1100,
         like: 0,
         rating: 4.7,
@@ -139,7 +139,7 @@ export const products = [
         link: 'https://www.amazon.com/Nvidia-GeForce-RTX-2080-Founders/dp/B07GPW17YM/ref=sr_1_10?crid=3SYXJZLN404NO&dchild=1&keywords=nvidia+graphics+card&qid=1615813513&sprefix=nvidia%2Caps%2C452&sr=8-10',
     },
     {
-        id: 25,
+        id: 10,
         price: 470,
         like: 0,
         rating: 4.8,
@@ -152,7 +152,7 @@ export const products = [
         link: 'https://www.amazon.com/MSI-GeForce-192-bit-Support-Graphics/dp/B07ZK69HDK/ref=sr_1_2?crid=3CAHUQ5UTIXKV&dchild=1&keywords=nvidia+graphics+card+1660+super&qid=1615813919&sprefix=nvidia+graphics+card%2Caps%2C980&sr=8-2',
     },
     {
-        id: 31,
+        id: 11,
         price: 24,
         like: 0,
         rating: 4.6,
@@ -165,7 +165,7 @@ export const products = [
         link: 'https://www.amazon.com/Logitech-MK270-Wireless-Keyboard-Mouse/dp/B079JLY5M5/ref=sr_1_3?crid=1AGVTMG1ZYAPX&keywords=keyboard&qid=1647172093&sprefix=keybo%2Caps%2C707&sr=8-3',
     },
     {
-        id: 32,
+        id: 12,
         price: 35,
         like: 0,
         rating: 4.5,
@@ -176,7 +176,7 @@ export const products = [
         link: 'https://www.amazon.com/Redragon-Mechanical-Keyboard-Rainbow-Switches/dp/B086VRM89H/ref=sr_1_2_sspa?crid=21DSAUBEWI3RL&dchild=1&keywords=keyboard&qid=1615814200&sprefix=keyboard%2Caps%2C408&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzREFWOVZQT01KQ0JWJmVuY3J5cHRlZElkPUEwMDc4NDEyMjlUMjQ5QVRPSVBWSSZlbmNyeXB0ZWRBZElkPUEwODg4MDkyM0tUTTY3MkE3WDlaSCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=',
     },
     {
-        id: 33,
+        id: 13,
         price: 36,
         like: 0,
         rating: 4.6,
@@ -187,7 +187,7 @@ export const products = [
         link: 'https://www.amazon.com/Redragon-S101-Keyboard-Ergonomic-Programmable/dp/B00NLZUM36/ref=sr_1_3?crid=21DSAUBEWI3RL&dchild=1&keywords=keyboard&qid=1615814200&sprefix=keyboard%2Caps%2C408&sr=8-3',
     },
     {
-        id: 34,
+        id: 14,
         price: 21,
         like: 0,
         rating: 4.5,
@@ -198,7 +198,7 @@ export const products = [
         link: 'https://www.amazon.com/NPET-Floating-Keyboard-Mechanical-Illuminated/dp/B01ALLT2W4/ref=sr_1_4?crid=21DSAUBEWI3RL&dchild=1&keywords=keyboard&qid=1615814200&sprefix=keyboard%2Caps%2C408&sr=8-4',
     },
     {
-        id: 35,
+        id: 15,
         price: 11,
         like: 0,
         rating: 4.6,
@@ -210,7 +210,7 @@ export const products = [
         link: 'https://www.amazon.com/AmazonBasics-Matte-Keyboard-QWERTY-Layout/dp/B07WJ5D3H4/ref=sxin_14_ac_d_rm?ac_md=0-0-a2V5Ym9hcmQ%3D-ac_d_rm_rm_rm&crid=E5GNFKMRUPYH&cv_ct_cx=keyboard&keywords=keayboard&pd_rd_i=B07WJ5D3H4&pd_rd_r=2badca35-b834-45fd-9082-43f474394376&pd_rd_w=xOiEl&pd_rd_wg=gPQQP&pf_rd_p=5fdda09e-d732-41f0-8362-9e3e115c3771&pf_rd_r=DPNA0C3J8ACV6ZAENQT4&psc=1&qid=1647172616&sprefix=keyboar%2Caps%2C289&sr=1-1-12d4272d-8adb-4121-8624-135149aa9081',
     },
     {
-        id: 41,
+        id: 16,
         price: 450,
         like: 0,
         rating: 4.6,
@@ -221,7 +221,7 @@ export const products = [
         link: 'https://www.amazon.com/Samsung-Galaxy-SM-G998B-International-Version/dp/B08VRYKFWY/ref=sr_1_4?dchild=1&keywords=samsung+s21&qid=1615814657&sr=8-4',
     },
     {
-        id: 42,
+        id: 17,
         price: 450,
         like: 0,
         rating: 4.6,
@@ -232,7 +232,7 @@ export const products = [
         link: 'https://www.amazon.com/Samsung-Galaxy-SM-G996B-International-Version/dp/B08QXW1TXX/ref=sr_1_5?dchild=1&keywords=samsung+s21&qid=1615814657&sr=8-5',
     },
     {
-        id: 43,
+        id: 18,
         price: 450,
         like: 0,
         rating: 4.4,
@@ -244,7 +244,7 @@ export const products = [
         link: 'https://www.amazon.com/Apple-Carrier-Subscription-Cricket-Wireless/dp/B084GSYMNJ/ref=sr_1_1?crid=PFNDJLWZNV2Z&dchild=1&keywords=iphone&qid=1615814670&sprefix=Iphone%2Caps%2C170&sr=8-1',
     },
     {
-        id: 44,
+        id: 19,
         price: 450,
         like: 0,
         rating: 4.5,
@@ -255,7 +255,7 @@ export const products = [
         link: 'https://www.amazon.com/Apple-iPhone-Fully-Unlocked-256/dp/B07PC1KCT6/ref=sr_1_3?crid=PFNDJLWZNV2Z&dchild=1&keywords=iphone&qid=1615814670&sprefix=Iphone%2Caps%2C170&sr=8-3',
     },
     {
-        id: 45,
+        id: 20,
         price: 450,
         like: 0,
         rating: 4.3,
