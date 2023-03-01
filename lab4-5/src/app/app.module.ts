@@ -12,6 +12,7 @@ import { CartComponent } from './cart/cart.component';
 import { ShippingComponent } from './shipping/shipping.component';
 import { CategoryComponent } from './category/category.component';
 import { ProductItemComponent } from './product-item/product-item.component';
+import { FilterProductComponent } from './filter-product/filter-product.component';
 
 @NgModule({
   imports: [
@@ -20,7 +21,8 @@ import { ProductItemComponent } from './product-item/product-item.component';
     ReactiveFormsModule,
     RouterModule.forRoot([
       { path: '', component: ProductListComponent },
-      { path: 'category/:categoryId', component: CategoryComponent },
+      { path: 'category/:categoryId', component: FilterProductComponent },
+      // { path: 'category/:categoryId', component: CategoryComponent },
       { path: 'products/:productId', component: ProductDetailsComponent },
       { path: 'cart', component: CartComponent },
       { path: 'shipping', component: ShippingComponent },
@@ -36,6 +38,7 @@ import { ProductItemComponent } from './product-item/product-item.component';
     ShippingComponent,
     CategoryComponent,
     ProductItemComponent,
+    FilterProductComponent,
   ],
   bootstrap: [
     AppComponent

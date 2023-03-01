@@ -33,4 +33,9 @@ export class ProductItemComponent implements OnInit{
     }
 
 
+    rm (){
+       products.pop()
+    }
+
+
 }
