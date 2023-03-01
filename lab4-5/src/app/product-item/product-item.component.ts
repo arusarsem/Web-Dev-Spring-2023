@@ -31,4 +31,10 @@ export class ProductItemComponent implements OnInit{
     like(id: number) {
         products[this.product.id-1].like++;
     }
+
+
+    rm(): void {
+        console.log(this.product.id)
+        products.splice(this.product.id-1, 1)
+    }
 }
