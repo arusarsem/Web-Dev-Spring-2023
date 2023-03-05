@@ -1,5 +1,16 @@
 <h1> Albums </h1>
 
+<fieldset>
+    <label>Title:</label>
+    <input type="text" [(ngModel)]="newAlbum.title">
+    <label>ID:</label>
+    <input type="text" [(ngModel)]="newAlbum.id">
+    <label>User ID:</label>
+    <input type="text" [(ngModel)]="newAlbum.userId">
+    <button (click)="addAlbum()"> Add album  </button>
+</fieldset>
+
+
 <ul *ngFor="let d of data">
   <li [routerLink]= "[d.id]" *ngIf="d.title"> {{ d.title }} </li>
 </ul>

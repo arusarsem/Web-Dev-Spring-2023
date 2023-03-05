@@ -20,4 +20,9 @@ export class AlbumService {
         return this.client.get<Album>(`${this.BASE_URL}${id}`)
     }
 
+
+    addAlbum(album: Album): Observable<Album> {
+        return this.client.post<Album>(`${this.BASE_URL}`, album)
+    }
+
 }

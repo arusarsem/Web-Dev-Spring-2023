@@ -9,8 +9,10 @@ import {AlbumService} from "../album.service";
 })
 export class AlbumsComponent implements OnInit{
   data: Album[];
+  newAlbum: Album;
   loaded: boolean;
   constructor(private albumService: AlbumService){
+      this.newAlbum = {} as Album;
       this.loaded = true;
       this.data = [];
   }
@@ -26,6 +28,18 @@ export class AlbumsComponent implements OnInit{
           this.data = album;
           this.loaded = true;
       })
+  }
+
+
+  addAlbum() {
+      this.loaded = false;
+      this.albumService.addAlbum(this.newAlbum).subscribe((album) => {
+          this.data.unshift(album);
+          this.newAlbum = {} as Album;
+          // console.log(album);
+          this.loaded = true;
+      })
+      // console.log(this.newAlbum);
   }
 
 
