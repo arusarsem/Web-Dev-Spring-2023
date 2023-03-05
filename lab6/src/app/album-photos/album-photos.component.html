@@ -1,1 +1,22 @@
-<p>album-photos works!</p>
+<div *ngFor="let i of this.data">
+    <div style="border: black 0.2px solid;" *ngIf="loaded">
+        <p>Album ID: {{i.albumId}}</p>
+        <p>ID: {{i.id}}</p>
+        <p>Title: {{i.title}}</p>
+<!--        <p>URL: {{i.url}}</p>-->
+        <img src="{{i.url}}" alt="">
+<!--        <p>Thumbnai URL: {{i.thumbnailUrl}}</p>-->
+        <img src="{{i.thumbnailUrl}}" alt="">
+    </div>
+</div>
+
+<button routerLink="/albums/{{albumId}}"> Back </button>
+
+<h3 *ngIf="!loaded"></h3>
+
+
+<!--albumId: Number,-->
+<!--id: number,-->
+<!--title: string,-->
+<!--url: string,-->
+<!--thumbnailUrl: string-->

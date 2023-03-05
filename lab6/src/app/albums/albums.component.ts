@@ -45,9 +45,9 @@ export class AlbumsComponent implements OnInit{
 
     rm(id: number): void {
         this.data = this.data.filter((x) => x.id !== id);
-        for(let i of this.data) {
-            console.log(i.id)
-        }
+        // for(let i of this.data) {
+        //     console.log(i.id)
+        // }
         this.albumService.deleteAlbum(id).subscribe((id) => {
             console.log("Deleted", id);
         })

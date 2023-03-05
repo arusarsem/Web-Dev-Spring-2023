@@ -10,10 +10,12 @@ import {AlbumService} from "../album.service";
 })
 export class AlbumDetailComponent implements OnInit{
   album: Album;
+  edAlbum: Album;
   loaded: boolean;
 
   constructor(private route: ActivatedRoute, private albumService: AlbumService) {
     this.album = {} as Album;
+    this.edAlbum = {} as Album
     this.loaded = true;
   }
 
@@ -40,5 +42,11 @@ export class AlbumDetailComponent implements OnInit{
   //
   //     })
   // }
+
+    Edit(){
+      this.albumService.editAlbum(this.album).subscribe((album) => {
+
+        })
+    }
 
 }
