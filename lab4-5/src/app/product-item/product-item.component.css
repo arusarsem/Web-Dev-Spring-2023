@@ -6,3 +6,17 @@
 /*    margin-top: 5px;*/
 /*    margin-left: 20px;*/
 /*}*/
+
+.for_like {
+    position: absolute;
+    margin-top: -5px;
+    margin-left: 30px;
+    display: inline-flex;
+}
+
+
+.for_del{
+    position: absolute;
+    margin-top: -32px;
+    margin-left: 200px;
+}

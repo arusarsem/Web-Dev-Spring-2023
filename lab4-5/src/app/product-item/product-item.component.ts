@@ -34,7 +34,6 @@ export class ProductItemComponent implements OnInit{
 
 
     rm(): void {
-        console.log(this.product.id)
-        products.splice(this.product.id-1, 1)
+        products[this.product.id-1] = {} as Product;
     }
 }

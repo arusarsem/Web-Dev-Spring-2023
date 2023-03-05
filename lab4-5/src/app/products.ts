@@ -10,7 +10,7 @@ export interface Product {
     categoryId: number
 }
 
-export const products = [
+export let products = [
     {
         id: 1,
         price: 190,

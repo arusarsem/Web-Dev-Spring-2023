@@ -35,8 +35,10 @@ export class AlbumDetailComponent implements OnInit{
   }
 
 
-  rm (): void {
-      ALBUMS[this.album.id-1] = {} as Album;
-  }
+  // rm (id: number): void {
+  //     this.albumService.deleteAlbum(id).subscribe((id) => {
+  //
+  //     })
+  // }
 
 }

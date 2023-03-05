@@ -1,4 +1,4 @@
-<div class="">
+<div *ngIf="product.id">
     <h3>
         <a [title]="product.name + ' details'" [routerLink]="['/products', product.id]">
             {{ product.name }}
@@ -20,17 +20,17 @@
     </app-product-alerts>
 
 
-        <div>
+        <div class="for_like">
 
             <img src="https://cdn.worldvectorlogo.com/logos/facebook-reaction-like.svg"
                  alt="img"
-                 style="width: 20px"
+                 style="width: 40px"
                  (click)="like(product.id)"
             >
-            <p> {{product.like}} </p>
+            <p>Like: {{product.like}} </p>
         </div>
 
-        <div>
+        <div class="for_del">
             <button (click)="rm()">
                 Delete
             </button>

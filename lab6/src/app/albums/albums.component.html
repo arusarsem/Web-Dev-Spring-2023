@@ -12,7 +12,11 @@
 
 
 <ul *ngFor="let d of data">
-  <li [routerLink]= "[d.id]" *ngIf="d.title"> {{ d.title }} </li>
+  <li style="display: flex">
+      <p> {{d.id}} </p>
+      <a style="margin-left: 5px; margin-top: 14px;" [routerLink]= "[d.id]" *ngIf="d.title"> {{ d.title }} </a>
+      <button (click)="rm(d.id)" style="margin-left: 5px; height: 20px; margin-top: 15px;">Delete</button>
+  </li>
 </ul>
 
 
