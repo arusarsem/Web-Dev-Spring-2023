@@ -1,0 +1,10 @@
+<div *ngIf="album   ">
+  <h1> Title: {{ album.title }} </h1>
+  <p> ID: {{album.id}}</p>
+  <p> User ID: {{album.userId}}</p>
+
+  <button routerLink="albums"> Back </button>
+  <button (click)="rm()"> Delete </button>
+</div>
+
+
