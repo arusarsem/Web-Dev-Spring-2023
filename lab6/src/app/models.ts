@@ -5,6 +5,15 @@ export interface Album {
 }
 
 
+export interface AlbumPhotos {
+    albumId: Number,
+    id: number,
+    title: string,
+    url: string,
+    thumbnailUrl: string
+}
+
+
 export let ALBUMS: Album[] = [
   {
     "userId": 1,

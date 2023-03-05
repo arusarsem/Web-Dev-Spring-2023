@@ -1,5 +1,8 @@
 <h1> Albums </h1>
 
 <ul *ngFor="let d of data">
-  <li [routerLink]= "[d.id]" *ngIf="d.id"> {{ d.title }} </li>
+  <li [routerLink]= "[d.id]" *ngIf="d.title"> {{ d.title }} </li>
 </ul>
+
+
+<h3 *ngIf="!loaded">Album List is loaded ... </h3>

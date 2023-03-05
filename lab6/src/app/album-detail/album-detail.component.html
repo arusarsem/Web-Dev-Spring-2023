@@ -1,4 +1,4 @@
-<div *ngIf="album   ">
+<div *ngIf="loaded">
   <h1> Title: {{ album.title }} </h1>
   <p> ID: {{album.id}}</p>
   <p> User ID: {{album.userId}}</p>
@@ -6,5 +6,8 @@
   <button routerLink="albums"> Back </button>
   <button (click)="rm()"> Delete </button>
 </div>
+
+
+<h1 *ngIf="!loaded"> Album loaded ...</h1>
 
 
