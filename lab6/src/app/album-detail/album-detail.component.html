@@ -1,7 +1,7 @@
 <div *ngIf="loaded">
     <fieldset>
         <label>Title</label>
-        <input type="text" [ngModel]="edAlbum.title" style="margin-left: 10px;">
+        <input type="text" [(ngModel)]="edAlbum.title" style="margin-left: 10px;">
         <button (click)="Edit()"> Edit </button>
     </fieldset>
   <h1> Title: {{ album.title }} </h1>

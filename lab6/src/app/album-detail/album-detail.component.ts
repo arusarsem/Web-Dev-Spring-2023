@@ -44,8 +44,11 @@ export class AlbumDetailComponent implements OnInit{
   // }
 
     Edit(){
+      this.loaded = false;
+      this.album.title = this.edAlbum.title
       this.albumService.editAlbum(this.album).subscribe((album) => {
-
+          console.log(album);
+          this.loaded = true;
         })
     }
 
