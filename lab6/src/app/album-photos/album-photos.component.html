@@ -1,3 +1,4 @@
+<button routerLink="/albums/{{albumId}}"> Back </button>
 <div *ngFor="let i of this.data">
     <div style="border: black 0.2px solid;" *ngIf="loaded">
         <p>Album ID: {{i.albumId}}</p>
@@ -10,7 +11,7 @@
     </div>
 </div>
 
-<button routerLink="/albums/{{albumId}}"> Back </button>
+
 
 <h3 *ngIf="!loaded"></h3>
 
